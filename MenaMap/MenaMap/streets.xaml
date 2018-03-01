@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenaMap.streets"
+             Title="قائمة مواقع المشروع">
+  <ScrollView>
+        <StackLayout Padding="10">
+            <SearchBar x:Name="mySearchbar"/>
+            <Picker x:Name="myStreet" Title="اختر الموقع"                      
+        ItemDisplayBinding="{Binding street}"
+        SelectedItem="{Binding street}"              
+                />
+            <Button x:Name="btmap" Text="عرض الخريطة" />
+        </StackLayout>
+  </ScrollView>
+</ContentPage>

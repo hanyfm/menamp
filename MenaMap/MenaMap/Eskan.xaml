@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenaMap.Eskan"
+            BackgroundImage="mena.jpg"         
+             Title="مشروع إسكان الحجاج بمنى">
+   
+    <StackLayout  VerticalOptions="Start">
+        <Image Source='eskan_logo.png' Aspect='AspectFit'/>
+
+        <Button x:Name="btsite" Text="عرض موقع على الخريطة"></Button>
+        <Button x:Name="btstreet" Text="عرض شارع على الخريطة"></Button>
+        <Button x:Name="btcompany" Text="عرض مواقع مؤسسة طوافة على الخريطة"></Button>
+        <Button x:Name="btcamp" Text="عرض شاخص على الخريطة"></Button>
+        
+    </StackLayout>
+</ContentPage>
